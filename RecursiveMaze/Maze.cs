@@ -87,7 +87,7 @@ namespace RecursiveMaze
                 correctPath[x, y] = 1;
                 return true;
             }
-            if(maze[x,y] == 2 || visited[x,y] == 1)
+            if(maze[x,y] == 2 || visited[x,y] == 1) // dead road
             {
                 return false;
             }
