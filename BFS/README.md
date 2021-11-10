@@ -1,6 +1,6 @@
 # BFS
 
-This is an implementation of BFS.
+This is an implementation of BFS and use Binary Tree.
 
 <table>
   <tr>
