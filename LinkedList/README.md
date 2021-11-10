@@ -1,5 +1,5 @@
 # LinkedList
-This is a implementation of LinkedList.
+This is an implementation of LinkedList.
 
 <table>
   <tr>
