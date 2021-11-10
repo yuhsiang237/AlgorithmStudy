@@ -47,3 +47,6 @@ This is a implementation of LinkedList.
       </td>
   </tr>
 </table>
+
+### demo
+<img src="demo/1.png">
