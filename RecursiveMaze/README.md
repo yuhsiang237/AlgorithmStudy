@@ -1,4 +1,4 @@
-# BinaryTree
+# RecursiveMaze
 
 This is an implementation of RecursiveMaze.
 
