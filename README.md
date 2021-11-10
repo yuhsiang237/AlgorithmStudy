@@ -21,7 +21,12 @@
     <td>Implement the BFS  traverse and use Binary Tree</td>
     <td>C#</td>
   </tr>
-  
+     <tr>
+    <td>RecursiveMaze</td>
+    <td>Solve the mazy by recursion</td>
+    <td>C#</td>
+  </tr>
+
   
 </table>
 
