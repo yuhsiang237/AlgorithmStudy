@@ -23,7 +23,7 @@
   </tr>
      <tr>
     <td>RecursiveMaze</td>
-    <td>Solve the mazy by recursion</td>
+    <td>Solve the maze by recursion</td>
     <td>C#</td>
   </tr>
 
