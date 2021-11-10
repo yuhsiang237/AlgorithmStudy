@@ -13,6 +13,7 @@ namespace BinaryTree
         }
         /// <summary>
         /// PreOrder
+        /// Print the data when the node visit
         /// Visit the root
         /// Traverse the left subtree
         /// Traverse the right subtree
@@ -29,6 +30,7 @@ namespace BinaryTree
         }
         /// <summary>
         /// PostOrder
+        /// Print the data from the right back
         /// Traverse the left subtree
         /// Traverse the right subtree
         /// Visit the root
@@ -45,6 +47,7 @@ namespace BinaryTree
         }
         /// <summary>
         /// InOrder
+        /// Print the data from the left back
         /// Traverse the left subtree
         /// Visit the root
         /// Traverse the right subtree
