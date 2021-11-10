@@ -1,6 +1,6 @@
 # BinaryTree
 
-This is a implementation of BinaryTree.
+This is a implementation of BinaryTree,using DFS.
 
 <table>
   <tr>
