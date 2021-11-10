@@ -1,21 +1,33 @@
-# AlgorithmImplementation
+# BinaryTree
+
+This is an implementation of RecursiveMaze.
 
 <table>
   <tr>
-    <td>Name</td>
-    <td>Description</td>
-    <td>Language</td>
+      <td>
+        method
+      </td>
+      <td>
+        description
+      </td>
   </tr>
-  <tr>
-    <td>LinkedList</td>
-    <td>Implement the LinkedList, including PushBack、PushFront、PrintAll</td>
-    <td>C#</td>
+    <tr>
+      <td>
+        printMaze
+      </td>
+      <td>
+      Print the maze<br/>
+      </td>
   </tr>
    <tr>
-    <td>BinaryTree</td>
-    <td>Implement the BinaryTree, including PreOrder、InOrder、PostOrder</td>
-    <td>C#</td>
+      <td>
+        solveMaze
+      </td>
+      <td>
+      Solve and print the maze<br/>
+      </td>
   </tr>
-  
 </table>
 
+### demo
+<img src="demo/1.png">
