@@ -28,7 +28,6 @@ namespace BinaryTreeDepth
             t1.RightNode = t3;
 
             t2.LeftNode = t4;
-            t2.RightNode = t5;
 
             t3.LeftNode = t6;
             t3.RightNode = t7;
@@ -49,15 +48,14 @@ namespace BinaryTreeDepth
             List<TreeNode> nodes = TreeNode.FindDepthNodes(t2,2);
             foreach(TreeNode item in nodes)
             {
-                if(item != null)
+                if(item.Value == null)
                 {
-                    Console.Write(item.Value);
+                    Console.Write("{0} ", "null");
                 }
                 else
                 {
-                    Console.Write("null");
+                    Console.Write("{0} ", item.Value);
                 }
-                Console.Write(" ");
             }
         }
     }

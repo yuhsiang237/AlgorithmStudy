@@ -4,12 +4,12 @@ namespace BinaryTreeDepth
 {
     class TreeNode
     {
-        private int _value;
-        public TreeNode(int value)
+        private int? _value;
+        public TreeNode(int? value)
         {
             _value = value;
         }
-        public int Value { get { return _value; } set { _value = value; } } 
+        public int? Value { get { return _value; } set { _value = value; } } 
         public TreeNode LeftNode { get; set; }
         public TreeNode RightNode { get; set; }
         /// <summary>
@@ -44,10 +44,18 @@ namespace BinaryTreeDepth
             {
                 return;
             }
-           
-            treeNodeList.Add(treeNode);
 
-            if(treeNode!=null)
+            // 增加節點到結果陣列
+            if(treeNode != null)
+            {
+                treeNodeList.Add(treeNode);
+            }
+            else
+            {
+                treeNodeList.Add(new TreeNode(null)); // 沒有節點則添加空值節點
+            }
+
+            if (treeNode!=null)
             {
                 FindDepthNodesHelper(treeNodeList, treeNode.LeftNode, currentDepth + 1, maxDepth);
                 FindDepthNodesHelper(treeNodeList, treeNode.RightNode, currentDepth + 1, maxDepth);
