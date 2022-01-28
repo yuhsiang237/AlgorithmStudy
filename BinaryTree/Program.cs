@@ -43,6 +43,10 @@ namespace BinaryTree
             Console.Write("\n");
             Console.WriteLine("TraversePostOrder:");
             BinaryTree.TraversePostOrder(btree.root);
+            Console.Write("\n");
+            Console.WriteLine("TraverseLevelOrder:");
+            BinaryTree.TraverseLevelOrder(btree.root);
+            
         }
     }
 }

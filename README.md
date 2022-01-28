@@ -13,7 +13,7 @@
   </tr>
    <tr>
     <td>BinaryTree</td>
-    <td>Implement the BinaryTree, including PreOrder、InOrder、PostOrder.Use DFS.</td>
+    <td>Implement the BinaryTree, including PreOrder、InOrder、PostOrder、LevelOrder.Use DFS.</td>
     <td>C#</td>
   </tr>
     <tr>

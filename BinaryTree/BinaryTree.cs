@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BinaryTree
@@ -61,6 +62,50 @@ namespace BinaryTree
                 Console.Write(parent.data + " ");
                 TraverseInOrder(parent.right);
             }
+        }
+
+        /// <summary>
+        /// LevelOrder
+        /// Every Level print left to right 
+        /// </summary>
+        /// <param name="parent"></param>
+        public static void TraverseLevelOrder(Node parent)
+        {
+            IList<IList<Object>> result = LevelOrder(parent);
+            foreach(List<Object> list in result)
+            {
+                foreach (Object item in list)
+                {
+                    Console.Write(item + " ");
+                }
+            }
+        }
+        private static IList<IList<Object>> LevelOrder(Node root)
+        {
+            Dictionary<Object, List<Object>> dict = new Dictionary<Object, List<Object>>();
+            LevelOrderHelper(root, 0, dict);
+            return dict.Values.ToArray();
+        }
+
+        private static void LevelOrderHelper(Node node, int currentDepth, Dictionary<Object, List<Object>> dict)
+        {
+            if (node == null)
+            {
+                return;
+            }
+            // 遞迴到指定階層，增加指令階層的元素
+            if (dict.ContainsKey(currentDepth))
+            {
+                // 增加到現有深度的List裡面
+                dict[currentDepth].Add(node.data);
+            }
+            else
+            {
+                // 還未創立List，在字典中創立一個List，並添加目前元素
+                dict.Add(currentDepth, new List<Object>() { node.data });
+            }
+            LevelOrderHelper(node.left, currentDepth + 1, dict);
+            LevelOrderHelper(node.right, currentDepth + 1, dict);
         }
     }
 }
