@@ -43,7 +43,10 @@ This is an implementation of BinaryTree,using DFS.
        Traverse the right subtree<br/>
         Visit the root<br/>
       </td>
-       <td>
+       
+  </tr>
+  <tr>
+  <td>
         TraverseLevelOrder
       </td>
       <td>
