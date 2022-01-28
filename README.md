@@ -32,7 +32,12 @@
 It used to find target of root node depth and return their child nodes of depth.</td>
     <td>C#</td>
   </tr>
-  
+    <tr>
+    <td>Stack</td>
+    <td>Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+      use node.</td>
+    <td>C#</td>
+  </tr>
 
   
 </table>
