@@ -8,12 +8,12 @@
   </tr>
   <tr>
     <td>LinkedList</td>
-    <td>Implement the LinkedList, including PushBack、PushFront、PrintAll</td>
+    <td>Implement the LinkedList, including PushBack, PushFront and PrintAll</td>
     <td>C#</td>
   </tr>
    <tr>
     <td>BinaryTree</td>
-    <td>Implement the BinaryTree, including PreOrder、InOrder、PostOrder、LevelOrder.Use DFS.</td>
+    <td>Implement the BinaryTree, including PreOrder, InOrder, PostOrder and LevelOrder.Use DFS.</td>
     <td>C#</td>
   </tr>
     <tr>
